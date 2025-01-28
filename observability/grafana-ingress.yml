@@ -10,7 +10,7 @@ spec:
   tls:
     - hosts:
       -  grafana.example.com
-      secretName: whoami-tls
+      secretName: grafana-tls
   rules:
   - host: "grafana.example.com"
     http:
